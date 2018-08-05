@@ -1,0 +1,14 @@
+ID: NeorisDevops
+_schema-version: '2.1'
+description: A Simple MTA demo application
+version: 0.0.1
+modules:
+  - name: devops
+    type: html5
+    path: devops
+    parameters:
+      name: devops
+      version: '1'
+    build-parameters:
+      builder: grunt
+    description: devops frontend
